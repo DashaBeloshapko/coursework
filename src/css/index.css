@@ -218,6 +218,49 @@ body {
     display: flex;  
     background-color: #B90C0CCC; 
 }
+.team {
+    width: 1170px;
+    height: 619px;
+    margin-top: 114px;
+    margin-left: 170px;
+    display: flex;
+    gap: 30px;
+}
+.team__card {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.team__card-name {
+    margin: 30px 0 0 0;
+    color: #2D3033;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.18px;
+    font-family: 'Raleway Bold';
+    text-transform: capitalize;
+}
+.team__card-profession {
+    margin: 5.29px 0 0 0;
+    color: #FF4343;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    font-family: 'Raleway Regular';
+    text-transform: uppercase;
+}
+.team__card-text {
+    margin: 17.86px 0 0 0;
+    color: #6C7279;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    font-family: 'Raleway Regular';    
+}
+.team__card-link {
+    margin-top: 37.86px;
+}
 @font-face {
     font-family: "Raleway Bold"; 
     src: url("../fonts/Raleway-Bold.ttf") format("truetype"); 
