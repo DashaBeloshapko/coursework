@@ -3,7 +3,7 @@ body {
 }
 .header__shadow {           
     background-color: #252B49; 
-    width: 1510px;
+    width: 100%;
     height: 747px; 
     opacity: 0.8;
     display: flex;
@@ -143,7 +143,7 @@ body {
 }
 .work {
     margin-top: 116px;
-    width: 1510px;
+    width: 100%;
     height: 678px;
     display: grid;
     grid-template-columns: repeat(4, 378px);
@@ -261,6 +261,177 @@ body {
 .team__card-link {
     margin-top: 37.86px;
 }
+.testimonails {
+    width: 100%;
+    height: 535px;
+    display: flex;
+    flex-direction: column;    
+    margin-top: 114px;
+}
+.testimonails__main {
+    display: flex;
+    background-color: #5C3249;
+}
+.testimonails__main-text {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 129px;   
+}
+.testimonails__main-text-title {
+    width: 471px;
+    height: 230px;
+    margin: 116px 0 0 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48.74px;
+    font-family: 'Cardo Italic';
+    text-transform: capitalize;
+}
+.testimonails__main-text-ps{
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.26px;
+    font-family: 'Raleway Regular';
+    text-transform: uppercase;
+}
+.testimonails__dots {
+    width: 170px;
+    height: 14px;
+    margin-top: 31px;
+    margin-left: 671px;
+}
+.download {
+    width: 1170px;
+    height: 224px;
+    margin: 114px 0 114px 171px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.download__title {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35.22px;
+    font-family: 'Raleway Bold';
+    text-transform: capitalize;
+}
+.download__text {
+    margin: 0;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.13px;
+    font-family: 'Raleway ExtraBold';
+    text-transform: uppercase;
+}
+.download__button {
+    margin-top: 47.71px;
+    background-color: #FF4343;
+    border: none;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28.18px;
+    font-family: 'Raleway ExtraBold';
+    text-transform: uppercase;
+    width: 370px;
+    height: 80px;
+}
+.download__button:hover {
+    background-color: #E71414;
+}
+.download__button:active {    
+    background-color: #FF4343;
+    box-shadow: 4px 4px 30px #FF4343;
+}
+.footer {
+    width: 100%;   
+    height: 340px; 
+    background-color: #353C65;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;    
+}
+.footer__top {
+    display: flex;
+    justify-content: center;
+    gap: 30px;  
+    padding-top: 71.14px;  
+}
+.footer__top-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__top-location {
+    width: 370px;
+    height: 71px;
+}
+.footer__top-link {
+    width: 370px;
+    height: 108.86px;
+}
+.footer__about {
+    width: 370px;
+    height: 112.71px;
+}
+.footer__top-title {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.13px;
+    font-family: 'Raleway Bold';
+    text-transform: uppercase;
+    margin: 0;
+}
+.footer__top-text {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    font-family: 'Raleway Regular';
+    text-transform: capitalize;
+    margin: 29px 0 0 0;
+    text-align: center;
+}
+.footer__top-link-icon {
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+    margin-top: 48.86px;
+}
+.footer__bottom {
+    height: 90px;
+    width: 100%;
+    background-color: #2C3154; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.footer__bottom-text {
+    width: 370px;
+    height: 42px;
+    text-align: center;
+    color: #808080;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    font-family: 'Raleway Regular';
+    text-transform: capitalize;
+}
+.footer__span {
+    color: #FFFFFF;
+}
 @font-face {
     font-family: "Raleway Bold"; 
     src: url("../fonts/Raleway-Bold.ttf") format("truetype"); 
@@ -279,3 +450,243 @@ body {
     font-style: normal; 
     font-weight: normal; 
 }  
+@font-face {
+    font-family: "Cardo Italic"; 
+    src: url("../fonts/Cardo-Italic.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}  
+@media only screen and (max-width:1024px) {
+    body {
+        width: 1024px;         
+    }
+    .header__shadow {
+        width: 100%;
+        height: 768px;
+    }
+    .header__banner {
+        width: 1024px;
+        height: 768px;                  
+    }
+    .header__nav-icon {
+        margin-left: 20px;        
+    }
+    .header__nav-link {
+        margin-right: 20px;
+    }
+    .header__nav-link-1 {
+        width: 112px;              
+        font-size: 12px;    
+        line-height: 14.09px;    
+    }
+    .header__line {       
+        width: 984px;
+    }
+    .header__title {
+        width: 984px;
+        height: 112px;        
+        font-size: 48px;        
+        line-height: 56.35px;        
+        margin: 157px 0 0 61.86px;
+    }
+    .header__info {
+        width: 984px;
+        height: 42px;        
+        font-size: 18px;        
+        line-height: 21.13px;        
+        margin-bottom: 89.14px;
+    }
+    .header__button {
+        width: 314px;
+        height: 80px;  
+    }  
+    .features {
+        width: 984px;
+        height: 523.89px;
+        margin-left: 20px;
+        margin-top: 78px;        
+        grid-template-rows: repeat(2, 237px);
+        grid-template-columns: repeat(3, 315px);
+        row-gap: 49.84px;
+        column-gap: 20px;
+    } 
+    .features__card-icon {
+        width: 85px;
+        height: 85px;
+    }
+    .features__card-title {
+        height: 60.55px;        
+        font-size: 18px;        
+        line-height: 21.13px;       
+        margin: 24.52px 0 3.95px 0;    
+    }  
+    .features__card-main {        
+        font-size: 14px;       
+        line-height: 16.44px;          
+    }   
+    .work {
+        margin-top: 80.11px;        
+        height: 459.78px;        
+        grid-template-columns: repeat(4, 256.34px);
+        grid-template-rows: repeat(2, 230.57px);        
+    }
+    .work__picture {
+        width: 256.34px;
+        height: 230.57px;       
+    }
+    .work__picture-background {        
+        width: 256.34px;
+        height: 230.57px;        
+    }
+    .work__picture-background-title {
+        height: 40.69px;        
+        margin: 74.6px 0 12.81px 0;        
+        font-size: 18px;        
+        line-height: 21.13px;        
+    }
+    .work__picture-background-text {        
+        font-size: 14px;       
+        line-height: 16.44px;       
+    }
+    .team {
+        width: 984.08px;
+        height: 520.59px;
+        margin-top: 78.22px;
+        margin-left: 20px;        
+        gap: 25.23px;
+    }
+    .team__card {
+        width: 227.08px;        
+    }
+    .team__card-picture {
+        width: 227.08px;
+        height: 227.08px;
+    }
+    .team__card-name {
+        margin: 25.23px 0 0 0;        
+        font-size: 18px;        
+        line-height: 21.13px;        
+    }
+    .team__card-profession {
+        margin: 4.6px 0 0 0;
+        font-size: 14px;        
+        line-height: 16.44px;       
+    }
+    .team__card-text {
+        margin: 22.45px 0 0 0;        
+        font-size: 14px;        
+        line-height: 16.44px;          
+    }
+    .team__card-link {
+        margin-top: 39.2px;
+    }
+    .team__card-link-svg {
+        width: 32.8px;
+        height: 32.8px;
+    }
+    .testimonails {
+        width: 100%;
+        height: 365.49px;          
+        margin-top: 78.41px;
+    }
+    .testimonails__main {        
+        height: 332px;          
+    }
+    .testimonails__main-picture {
+        width: 502px;
+        height: 332px;
+    }
+    .testimonails__main-text {       
+        margin-left: 88px;   
+    }
+    .testimonails__main-text-title {
+        width: 330px;
+        height: 156px;
+        margin: 47px 0 0 0;        
+        font-size: 24px;       
+        line-height: 32.5px;        
+    }
+    .testimonails__main-text-ps{       
+        font-size: 12px;        
+        line-height: 14.09px;        
+    }
+    .testimonails__dots {
+        width: 149.49px;
+        height: 9.49px;
+        margin-top: 23.93px;
+        margin-left: 463px;
+    }
+    .download {
+        width: 984px;
+        height: 204px;
+        margin: 77.51px 0 78px 20px;
+    }    
+    .download__title {
+        height: 60px;        
+        font-size: 24px;        
+        line-height: 28.18px;        
+    }    
+    .download__text {        
+        font-size: 14px;        
+        line-height: 16.44px;        
+    }
+    .download__button {
+        margin-top: 43.29px;        
+        font-size: 18px;        
+        line-height: 21.13px;        
+        width: 313.15px;
+        height: 77.58px;
+    }
+    .footer {
+        width: 1024px;   
+        height: 229.33px;           
+    }
+    .footer__top {        
+        gap: 20px;  
+        padding-top: 46.59px;  
+    }
+    .footer__top-location {
+        width: 315px;
+        height: 49.72px;
+    }
+    .footer__top-link {
+        width: 314px;
+        height: 81.51px;
+    }
+    .footer__about {
+        width: 315px;
+        height: 79.58px;
+    }
+    .footer__top-title {        
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.44px;        
+    }
+    .footer__top-text {        
+        font-size: 14px;        
+        line-height: 16.44px;                  
+    }
+    .footer__top-text-1 {
+        margin: 17.72px 0 0 0;   
+    }
+    .footer__top-text-2 {
+        margin: 15.58px 0 0 0; 
+    }
+    .footer__top-link-icon {        
+        gap: 23.01px;
+        margin-top: 32.51px;
+    }
+    .footer-link {
+        width: 33px;
+        height: 33px;
+    }
+    .footer__bottom {
+        height: 60.7px;        
+    }
+    .footer__bottom-text {
+        width: 314px;
+        height: 32px;        
+        font-size: 14px;        
+        line-height: 16.44px;        
+    }
+}
