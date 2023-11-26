@@ -35,6 +35,9 @@ body {
     align-items: center;
     margin-left: 170px;
 }
+.header__link-hide {
+    display: none;
+}
 .header__nav-link {
     display: flex;
     margin-right: 170px;
@@ -685,6 +688,264 @@ body {
     }
     .footer__bottom-text {
         width: 314px;
+        height: 32px;        
+        font-size: 14px;        
+        line-height: 16.44px;        
+    }
+}
+@media only screen and (max-width:340px) {
+    body {
+        width: 320px;         
+    }
+    .header__shadow {          
+        width: 320px;
+        height: 574px;          
+    }
+    .header__banner {            
+        width: 320px;
+        height: 574px;  
+        background-size: cover;                
+    }
+    .header__icon-1 {
+        width: 67.78px;
+        height: 14.35px;
+    }
+    .header__icon-2 {
+        width: 34px;
+        height: 14.34px;
+    }
+    .header__nav-top {        
+        height: 56.28px;        
+    }
+    .header__nav-icon {
+        width: 130px;        
+        margin-left: 20px;
+    }
+    .header__nav-link {
+        display: none;
+    }
+    .header__link-hide {
+        display: flex;
+    }
+    .header__line {
+        display: none;
+    }
+    .header__title {
+        width: 280px;
+        height: 210px;        
+        font-size: 36px;       
+        line-height: 42.26px;        
+        margin: 49.72px 0 0 0;
+    }
+    .header__info {
+        width: 280px;
+        height: 64px;        
+        font-size: 14px;        
+        line-height: 16.44px;        
+        margin-bottom: 32.71px;
+    }
+    .header__button {
+        width: 280px;
+        height: 60px;          
+    }
+    .features {
+        width: 280.84px;
+        height: 1542.15px;
+        margin-left: 20px;
+        margin-top: 40px;         
+        grid-template-rows: repeat(6, 221.54px);
+        grid-template-columns: repeat(1, 279px);
+        row-gap: 41.5px;       
+    }
+    .features__card-icon {
+        width: 75.56px;
+        height: 75.56px;
+    }
+    .features__card-title {
+        height: 53.63px;        
+        font-size: 18px;        
+        line-height: 21.13px;        
+        margin: 21.72px 0 0 0;    
+    }
+    .features__card-main {        
+        font-size: 14px;        
+        line-height: 16.44px;          
+    }
+    .work {
+        margin-top: 34.85px;
+        width: 100%;
+        height: 576px;        
+        grid-template-columns: repeat(2, 160px);
+        grid-template-rows: repeat(4, 144px);        
+    }
+    .work__picture {
+        width: 160px;
+        height: 144px;        
+    }
+    .work__picture-background {        
+        width: 160px;
+        height: 144px;        
+    }
+    .work__picture-background-title {
+        height: 25.41px;        
+        margin: 46.59px 0 4.63px 0;       
+        font-size: 18px;       
+        line-height: 21.13px;        
+    }
+    .work__picture-background-text {        
+        font-size: 14px;        
+        line-height: 16.44px;        
+    }
+    .team {
+        width: 280px;
+        height: 2252px;
+        margin-top: 35px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+    }
+    .team__card {
+        width: 280px;        
+    }
+    .team__card-picture {
+        width: 280px;
+        height: 280px;
+        background-size: cover;
+    }
+    .team__card-name {
+        margin: 25.25px 0 0 0;        
+        font-size: 18px;        
+        line-height: 21.13px;        
+    }
+    .team__card-profession {
+        margin: 4.61px 0 0 0;        
+        font-size: 14px;        
+        line-height: 16.44px;        
+    }
+    .team__card-text {
+        margin: 38.49px 0 0 0;       
+        font-size: 14px;        
+        line-height: 16.44px;          
+    }
+    .team__card-link {
+        margin-top: 55.15px;
+    }
+    .team__card-link-svg {
+        width: 39.61px;
+        height: 39.61px;
+    }
+    .testimonails {
+        width: 320px;
+        height: 570.49px;           
+        margin-top: 41px;
+    }
+    .testimonails__main {        
+        flex-direction: column;   
+        height: 570.49px;     
+    }
+    .testimonails__main-picture {
+        width: 320px;
+        height: 212px;
+    }
+    .testimonails__main-text {        
+        margin-left: 20px;   
+    }
+    .testimonails__main-text-title {
+        width: 275px;
+        height: 206px;
+        margin: 0;        
+        font-size: 24px;        
+        line-height: 32.5px;  
+        display: flex;
+        align-items: center;    
+        justify-content: center;  
+        text-align: center;
+    }
+    .testimonails__main-text-ps {        
+        font-size: 12px;        
+        line-height: 14.09px;        
+    }
+    .testimonails__dots {
+        width: 129.49px;
+        height: 9.49px;
+        margin-top: 23px;
+        margin-left: 95px;
+    }
+    .download {
+        width: 280px;
+        height: 204px;
+        margin: 34.51px 0 45px 20px;        
+    }
+    .download__title {
+        height: 80px;
+        text-align: center;        
+        font-size: 18px;        
+        line-height: 21.13px;        
+    }
+    .download__text {  
+        text-align: center;      
+        font-size: 13px;        
+        line-height: 15.26px;
+        margin-top: 3px;        
+    }
+    .download__button {
+        margin-top: 11px;        
+        font-size: 18px;        
+        line-height: 21.13px;        
+        width: 278.25px;
+        height: 77.58px;
+    }
+    .footer {
+        width: 100%;   
+        height: 540px;         
+        justify-content: space-between;    
+    }
+    .footer__top {        
+        flex-direction: column;
+        align-items: center;
+        gap: 0;        
+        padding-top: 34.14px;  
+    }    
+    .footer__top-location {
+        width: 280px;
+        height: 66px;
+        margin-bottom: 69.24px;
+    }
+    .footer__top-link {
+        width: 279px;
+        height: 85.71px;
+        margin-bottom: 59.05px;
+    }
+    .footer__about {
+        width: 279px;
+        height: 102.71px;
+    }
+    .footer__top-title {        
+        font-size: 14px;        
+        line-height: 16.44px;        
+        margin: 0;
+    }
+    .footer__top-text {        
+        font-size: 14px;        
+        line-height: 16.44px;       
+    }
+    .footer__top-text-1 {
+        margin-top: 34px;
+    }
+    .footer__top-text-2 {
+        margin-top: 38.71px;
+    }
+    .footer__top-link-icon {        
+        gap: 16.5px;
+        margin-top: 36.71px;
+    }
+    .footer-link {
+        width: 33px;
+        height: 33px;
+    }
+    .footer__bottom-text {
+        width: 280px;
         height: 32px;        
         font-size: 14px;        
         line-height: 16.44px;        
