@@ -8,33 +8,51 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__banner">
-            <div class="header__shadow">           
-                <div class="header__nav">
-                    <div class="header__nav-top">
-                        <div class="header__nav-icon">
-                            <img src="./src/img/ACTIVEBOX.svg" class="header__icon-1">
-                            <img src="./src/img/ACTIVEBOX (1).svg" class="header__icon-2">
-                        </div>
-                        <a href="#" class="header__link-hide"><img src="./src/img/icon_menu.svg"></a>
-                        <div class="header__nav-link">                            
-                            <a href="#" class="header__nav-link-1">features</a>
-                            <a href="#" class="header__nav-link-1">works</a>
-                            <a href="#" class="header__nav-link-1">our team</a>
-                            <a href="#" class="header__nav-link-1">testimonials</a>
-                            <a href="#" class="header__nav-link-1">download</a>
-                        </div>
+        <div class="header__banner_menu" id="header__banner_menu">
+            <div class="header__shadow"></div>
+            <div class="header__nav header__nav-menu">
+                <div class="header__nav-top header__nav-top-menu">
+                    <div class="header__nav-icon">
+                        <img src="./src/img/ACTIVEBOX.svg" class="header__icon-1">
+                        <img src="./src/img/ACTIVEBOX (1).svg" class="header__icon-2">
                     </div>
-                    <div class="header__line"></div>
-                </div> 
-                <h1 class="header__title">Your Favorite One Page Multi Purpose Template</h1> 
-                <h3 class="header__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
-                    vel scelerisque nisl consectetur et.</h3>
-                <button type="submit" class="header__button">Find Out More</button>
+                    <a href="#banner" class="header__link-hide"><img src="./src/img/Group 3.svg"></a>
+                </div>
+            </div>
+            <div class="header__menu_points">
+                <a href="#features" class="header__menu_points-point">features</a>
+                <a href="#work" class="header__menu_points-point">works</a>
+                <a href="#team" class="header__menu_points-point">our team</a>
+                <a href="#testimonails" class="header__menu_points-point">testimonials</a>
+                <a href="#download" class="header__menu_points-point">download</a>
+            </div>
+        </div>                
+        <div class="header__banner" id="banner">
+            <div class="header__shadow"></div>
+            <div class="header__nav">
+                <div class="header__nav-top">
+                    <div class="header__nav-icon">
+                        <img src="./src/img/ACTIVEBOX.svg" class="header__icon-1">
+                        <img src="./src/img/ACTIVEBOX (1).svg" class="header__icon-2">
+                    </div>
+                    <a href="#header__banner_menu" class="header__link-hide"><img src="./src/img/icon_menu.svg"></a>                    
+                    <div class="header__nav-link">                            
+                        <a href="#features" class="header__nav-link-1">features</a>
+                        <a href="#work" class="header__nav-link-1">works</a>
+                        <a href="#team" class="header__nav-link-1">our team</a>
+                        <a href="#testimonails" class="header__nav-link-1">testimonials</a>
+                        <a href="#download" class="header__nav-link-1">download</a>
+                    </div>
+                </div>
+                <div class="header__line"></div>
             </div> 
+            <h1 class="header__title">Your Favorite One Page Multi Purpose Template</h1> 
+            <h3 class="header__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
+                    vel scelerisque nisl consectetur et.</h3>
+            <button type="submit" class="header__button">Find Out More</button>
         </div>        
     </header>   
-    <section class="features">
+    <section id="features" class="features">
         <div class="features__card">
             <img src="./src/img/icon_1.svg" class="features__card-icon">
             <h3 class="features__card-title">Easily Customised</h3>
@@ -66,7 +84,7 @@
             <h5 class="features__card-main">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</h5>
         </div>
     </section>
-    <section class="work">
+    <section id="work" class="work">
         <div class="work__picture-1 work__picture">
             <div class="work__picture-background">
                 <h4 class="work__picture-background-title">Project Name</h4>
@@ -116,7 +134,7 @@
             </div>
         </div>             
     </section>
-    <section class="team">
+    <section id="team" class="team">
         <div class="team__card">
             <img src="./src/img/Rectangle 24.png" class="team__card-picture">
             <h4 class="team__card-name">Ruth woods</h4>
@@ -162,7 +180,7 @@
             </div>
         </div>       
     </section>
-    <section class="testimonails">
+    <section id="testimonails" class="testimonails">
         <div class="testimonails__main">
             <img src="./src/img/bg.png" class="testimonails__main-picture">
             <div class="testimonails__main-text">
@@ -172,7 +190,7 @@
         </div>
         <img src="./src/img/dots.svg" class="testimonails__dots">        
     </section>
-    <section class="download">
+    <section id="download" class="download">
         <h3 class="download__title">Are You Ready to Start? Download Now For Free!</h3>
         <h5 class="download__text">Fusce dapibus, tellus ac cursus commodo</h5>
         <button type="submit" class="download__button">download here</button>
